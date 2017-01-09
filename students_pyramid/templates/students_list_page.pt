@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pyramid web application">
+    <meta name="author" content="Pylons Project">
+    <link rel="shortcut icon" href="${request.static_url('students_pyramid:static/pyramid-16x16.png')}">
+
+    <title>Lista studentów</title>
+  </head>
+<body>
+
+<h1>Lista studentów</h1>
+
+<table>
+<thead>
+</thead>
+<tr>
+<th>Imię</th>
+<th>Nazwisko</th>
+<th>Miasto</th>
+<th>Wiek</th>
+<th>ID</th>
+</tr>
+    <tbody>
+  <tr tal:repeat="item students">
+    <td>${item.name}</td>
+    <td>${item.secondname}</td>
+    <td>${item.city}</td>
+    <td>${item.age}</td>
+    <td>${item.id}</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dodaj studenta</title>
+</head>
+<body>
+<h1>Dodaj studenta</h1>
+
+Ta strona pozwala w prosty sposób dodawać dane o studencie.
+
+Lista studentów dostępna jest <a href="./students_list_page">tutaj</a>.
+
+<form id="form1" name="form1" method="post" action="./student_added">
+  First name:<br>
+  <input type="text" name="name"><br>
+  Last name:<br>
+  <input type="text" name="secondname"><br>
+  City:<br>
+  <input type="text" name="city"><br>
+  Age:<br>
+  <input type="text" name="age"><br>
+  Id:<br>
+  <input type="text" name="id"><br>
+  <br/>
+  <input type="submit" name="button" id="button" value="Wyślij" />
+</form>
+</body>
+</html>

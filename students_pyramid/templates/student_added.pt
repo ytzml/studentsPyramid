@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student dodany!</title>
+</head>
+<body>
+<h1>Student dodany!</h1>
+
+Co teraz chcesz zrobić? <br/>
+<br/>
+<a href="./add_student_template">Dodaj kolejnego studenta</a><br/>
+<a href="./students_list_page">Wyświetl listę studentów</a><br/>
+
+</body>
+</html>
